@@ -1,0 +1,126 @@
+.apartments {
+}
+
+.apartment-content {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 20px;
+
+  width: 100%;
+
+  // Mobile screen
+  background-image: url(../img/infrastructure/img-1sm@1x.jpg);
+  // Mobile screen Retina
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../img/infrastructure/img-1sm@2x.jpg);
+  }
+  // Tablet
+  @media screen and (min-width: 768px) {
+    background-image: url(../img/infrastructure/img-1m@1x.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/infrastructure/img-1m@2x.jpg);
+    }
+    height: 486px;
+    padding: 8px 37px;
+  }
+  // Desctop
+  @media screen and (min-width: 1280px) {
+    background-image: url(../img/infrastructure/img-1lg@1x.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/infrastructure/img-1lg@2x.jpg);
+    }
+  }
+}
+
+.apartments__title {
+  margin-left: 20px;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.5;
+  color: #7e6d53;
+
+  // Tablet
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    margin-left: 32px;
+  }
+}
+.apartments__list {
+  padding: 24px 18px;
+  width: 100%;
+  background-color: #fcfcfb;
+  opacity: 0.8;
+  border-radius: 8px;
+
+  // Mobile
+  @media screen and (min-width: 480px) {
+    width: 440px;
+  }
+  // Tablet
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+    width: 331px;
+    height: 470px;
+    padding: 24px 32px;
+  }
+}
+.apartments__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 244px;
+  margin-left: auto;
+  margin-right: auto;
+
+  // Tablet
+  @media screen and (min-width: 768px) {
+    width: 267px;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.apartments__item-place {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+
+  color: #7e6d53;
+
+  // Tablet
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+.apartments__item-time {
+  width: 101px;
+  height: 101px;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+
+  color: #2d2a22;
+
+  border: 1px solid #2d2a22;
+  border-radius: 50px;
+
+  // Tablet
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+}
