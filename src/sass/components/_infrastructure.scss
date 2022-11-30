@@ -1,16 +1,16 @@
-.apartments {
+.infrastructure {
 }
 
-.apartment-content {
+.infrastructure-box {
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: bottom;
+  // background-size: cover;
 
   margin-left: auto;
   margin-right: auto;
-  padding: 40px 20px;
+  padding-bottom: 40px;
 
-  width: 100%;
+  // width: 100%;
 
   // Mobile screen
   background-image: url(../img/infrastructure/img-1sm@1x.jpg);
@@ -28,8 +28,8 @@
       (min-resolution: 2dppx) {
       background-image: url(../img/infrastructure/img-1m@2x.jpg);
     }
-    height: 486px;
-    padding: 8px 37px;
+    // padding: 8px 37px;
+    padding-bottom: 8px;
   }
   // Desctop
   @media screen and (min-width: 1280px) {
@@ -42,9 +42,13 @@
   }
 }
 
-.apartments__title {
-  margin-left: 20px;
-  margin-bottom: 24px;
+.infrastructure-content {
+  // padding-left: 20px;
+  // padding-right: 20px;
+}
+
+.infrastructure__title {
+  margin-bottom: 64px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.5;
@@ -52,20 +56,24 @@
 
   // Tablet
   @media screen and (min-width: 768px) {
+    margin-bottom: 24px;
     font-size: 40px;
     margin-left: 32px;
   }
 }
-.apartments__list {
+.infrastructure__list {
+  margin-left: auto;
+  margin-right: auto;
   padding: 24px 18px;
-  width: 100%;
+
+  width: 280px;
   background-color: #fcfcfb;
   opacity: 0.8;
   border-radius: 8px;
 
   // Mobile
   @media screen and (min-width: 480px) {
-    width: 440px;
+    width: 280px;
   }
   // Tablet
   @media screen and (min-width: 768px) {
@@ -75,7 +83,7 @@
     padding: 24px 32px;
   }
 }
-.apartments__item {
+.infrastructure__item {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -83,6 +91,10 @@
   width: 244px;
   margin-left: auto;
   margin-right: auto;
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 
   // Tablet
   @media screen and (min-width: 768px) {
@@ -93,7 +105,7 @@
   }
 }
 
-.apartments__item-place {
+.infrastructure__item-place {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
@@ -105,7 +117,7 @@
     font-size: 16px;
   }
 }
-.apartments__item-time {
+.infrastructure__item-time {
   width: 101px;
   height: 101px;
   padding: 15px;
