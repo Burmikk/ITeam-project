@@ -4,5 +4,8 @@
 <symbol id="mobilemenu-btn" viewBox="0 0 36 32">
 <path fill="#fcfcfb" style="fill: var(--color1, #fcfcfb)" d="M0 0h36v4h-36v-4zM0 14h36v4h-36v-4zM0 28h36v4h-36v-4z"></path>
 </symbol>
+<symbol id="close_24px" viewBox="0 0 32 32">
+<path d="M31.439 3.166l-3.166-3.166-12.554 12.552-12.552-12.552-3.166 3.166 12.552 12.552-12.552 12.554 3.166 3.166 12.552-12.554 12.554 12.554 3.166-3.166-12.554-12.554 12.554-12.552z"></path>
+</symbol>
     </defs>
 </svg>
