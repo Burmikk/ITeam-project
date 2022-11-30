@@ -1,4 +1,5 @@
 .infrastructure {
+  padding-top: 60px;
 }
 
 .infrastructure-box {
@@ -28,7 +29,6 @@
       (min-resolution: 2dppx) {
       background-image: url(../img/infrastructure/img-1m@2x.jpg);
     }
-    // padding: 8px 37px;
     padding-bottom: 8px;
   }
   // Desctop
@@ -58,7 +58,6 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 24px;
     font-size: 40px;
-    margin-left: 32px;
   }
 }
 .infrastructure__list {
@@ -77,7 +76,16 @@
   }
   // Tablet
   @media screen and (min-width: 768px) {
+    margin-right: 0;
     margin-left: auto;
+    width: 331px;
+    height: 470px;
+    padding: 24px 32px;
+  }
+  // Decstop
+  @media screen and (min-width: 1280px) {
+    margin-right: 168px;
+
     width: 331px;
     height: 470px;
     padding: 24px 32px;
