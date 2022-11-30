@@ -1,0 +1,36 @@
+.contacts__box {
+  background: #7e6d53;
+  border-radius: 16px;
+  width: 280px;
+  height: 218px;
+  padding: 24px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts__title {
+  text-align: center;
+}
+.contacts__heading {
+  text-align: center;
+}
+
+.contacts__link {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+.contacts__text {
+  margin-left: 8px;
+}
+.btn-contacts {
+  height: 48px;
+  width: 240px;
+  border-radius: 8px;
+}
