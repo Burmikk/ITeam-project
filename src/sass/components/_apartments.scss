@@ -27,6 +27,7 @@
     font-weight: 500;
     line-height: 1.5;
     color:#7E6D53;
+    margin-bottom: 40px;
 }
 .apart__title{
     font-size: 32px;
@@ -43,9 +44,12 @@
     color: #7E6D53;
 }
 .apart__card{
-    border: 2px solid #7E6D53 ;
+    &:hover,
+    &:focus{
+      border: 2px solid #7E6D53 ;
     border-radius: 16px;
-    box-shadow: 0px 4px 25px 0px #00000026;
+    box-shadow: 0px 4px 25px 0px #00000026;  
+    }
     padding: 20px 0;margin-right: 30px;
     text-align: center;height: 393px;
     @media screen and (min-width:479.5px) and (max-width:767.5px) {
@@ -95,13 +99,16 @@
 }
 .apart__switch{
     @media screen and (min-width:767.5px) {
-        display: flex;
+        display: flex; 
     }
-    
+}
+.apart__switch{
+    @media screen and (min-width:1279.5px) {
+        width: 66.66%;
+    }
 }
 .apart__cards{
     @media screen and (min-width:1279.5px) {
-        
         display: flex; 
     }
 }
