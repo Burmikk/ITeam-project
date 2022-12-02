@@ -47,6 +47,14 @@
   background: var(--primary-white-color);
   border: none;
   cursor: pointer;
+}
+
+// .is-hidden {
+//   visibility: hidden;
+//   opacity: 0;
+//   pointer-events: none;
+// }
+
   fill: var(--modal-input-border);
   padding: 0;
 
@@ -54,7 +62,7 @@
     top: 20px;
     right: 20px;
   }
-}
+
 .booking {
   display: flex;
   flex-direction: column;
