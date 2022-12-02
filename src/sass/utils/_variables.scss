@@ -7,4 +7,8 @@
   --white_contact: #fffefe;
   --modal-input-border: #35322d;
   --placeholder-text: #999ea3;
+
+  // Animation for btn
+  --turns-fast: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --turns-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
