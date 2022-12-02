@@ -80,7 +80,7 @@
 .hero__btn {
   height: 50px;
   width: 200px;
-  background: #fcfcfb;
+  background: var(--white_hot);
   border-radius: 16px;
 
   border: none;
@@ -88,7 +88,10 @@
   font-weight: 300;
   font-size: 20px;
   line-height: calc(30 / 20);
-  color: #2d2a22;
+  color: var(--brown_black);
+
+  transition: color var(--turns-fast);
+  transition: background-color var(--turns-fast);
 
   @media screen and (min-width: 768px) {
     font-size: 24px;
@@ -96,5 +99,11 @@
     height: 54px;
     width: 256px;
     padding: 9px 62px;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--white_hot);
+    background: var(--brown);
   }
 }
