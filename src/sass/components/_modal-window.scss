@@ -49,14 +49,23 @@
   background: none;
   border: none;
   cursor: pointer;
-  fill: var(--modal-input-border);
-  padding: 0;
 
-  @media screen and (min-width: 768px) {
-    top: 20px;
-    right: 20px;
-  }
 }
+
+// .is-hidden {
+//   visibility: hidden;
+//   opacity: 0;
+//   pointer-events: none;
+// }
+
+  // fill: var(--modal-input-border);
+  // padding: 0;
+
+  // @media screen and (min-width: 768px) {
+  //   top: 20px;
+  //   right: 20px;
+  // }
+
 .booking {
   display: flex;
   flex-direction: column;
