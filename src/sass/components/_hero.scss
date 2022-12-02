@@ -10,22 +10,22 @@
   margin-right: auto;
 
   // Mobile screen
-  background-image: url(../img/hero/img1_sm@1x.jpg);
+  background-image: url(../img/hero/img_sm@1x.jpg);
   // retina mobile screen
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(../img/hero/img1_sm@2x.jpg);
+    background-image: url(../img/hero/img_sm@2x.jpg);
   }
 
   // Tablet screen
   @media screen and (min-width: 768px) {
-    background-image: url(../img/hero/img2_md@1x.jpg);
+    background-image: url(../img/hero/img_md@1x.jpg);
     // retina tablet screen
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../img/hero/img2_md@2x.jpg);
+      background-image: url(../img/hero/img_md@2x.jpg);
     }
     padding-top: 32px;
     padding-bottom: 100px;
@@ -33,12 +33,12 @@
 
   // Desktop screen
   @media screen and (min-width: 1280px) {
-    background-image: url(../img/hero/img3_lg@1x.jpg);
+    background-image: url(../img/hero/img_lg@1x.jpg);
     // retina tablet screen
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../img/hero/img3_lg@2x.jpg);
+      background-image: url(../img/hero/img_lg@2x.jpg);
     }
   }
 }
