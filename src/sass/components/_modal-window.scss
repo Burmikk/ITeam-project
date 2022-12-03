@@ -39,7 +39,6 @@
     width: 528px;
   }
 }
-
 .modal__btn {
   // display: flex;
   // justify-content: center;
@@ -50,30 +49,42 @@
   background: none;
   border: none;
   cursor: pointer;
-  fill: var(--modal-input-border);
-  padding: 0;
+
 }
+
+// .is-hidden {
+//   visibility: hidden;
+//   opacity: 0;
+//   pointer-events: none;
+// }
+
+  // fill: var(--modal-input-border);
+  // padding: 0;
+
+  // @media screen and (min-width: 768px) {
+  //   top: 20px;
+  //   right: 20px;
+  // }
 
 .booking {
   display: flex;
   flex-direction: column;
 }
-
 .form__title {
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 20px;
   line-height: calc(24 / 20);
+  cursor: default;
 
   // text-align: start;
   letter-spacing: 0.03em;
   color: var(--modal-input-border);
   margin-bottom: 28px;
-  cursor: pointer;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 40px;
-    text-align: center !important;
+    text-align: center;
 
     font-size: 28px;
     line-height: calc(34 / 28);
@@ -92,7 +103,6 @@
   border-radius: 16px;
   outline: unset;
   padding-left: 16px;
-  cursor: pointer;
 
   @media screen and (min-width: 768px) {
     width: 410px;
