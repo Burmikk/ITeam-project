@@ -4,4 +4,8 @@ import './js/modal_apartments';
 
 import './js/header';
 
+import './js/modal-window';
+
 import './js/download';
+
+
