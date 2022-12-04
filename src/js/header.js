@@ -1,13 +1,14 @@
-window.onscroll = () => changeHeaderBackground();
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector("[data-b-modal-open]"),
+    closeModalBtn: document.querySelector("[data-b-modal-close]"),
+    modal: document.querySelector("[data-b-modal]"),
+  };
 
-function changeHeaderBackground() {
-  const header = document.querySelector('[data-header]');
-  const headerOffsetTrigger = header.offsetHeight;
-  const pageOffset = window.pageYOffset;
+  refs.openModalBtn.addEventListener("click", toggleModal);
+  refs.closeModalBtn.addEventListener("click", toggleModal);
 
-  if (pageOffset > headerOffsetTrigger) {
-    header.classList.add('header--transparency');
-  } else {
-    header.classList.remove('header--transparency');
+  function toggleModal() {
+    refs.modal.classList.toggle("is-hidden");
   }
-}
+})();
