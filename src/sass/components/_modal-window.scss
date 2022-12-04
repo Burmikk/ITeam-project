@@ -40,30 +40,24 @@
   }
 }
 .modal__btn {
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
   position: absolute;
   top: 12px;
   right: 12px;
   background: none;
   border: none;
   cursor: pointer;
+
+  transition: fill var(--turns-fast);
+
+  &:active {
+    fill: var(--brown);
+  }
+
+  &:hover,
+  &:focus {
+    fill: var(--brown);
+  }
 }
-
-// .is-hidden {
-//   visibility: hidden;
-//   opacity: 0;
-//   pointer-events: none;
-// }
-
-// fill: var(--modal-input-border);
-// padding: 0;
-
-// @media screen and (min-width: 768px) {
-//   top: 20px;
-//   right: 20px;
-// }
 
 .booking {
   display: flex;
@@ -105,6 +99,16 @@
 
   @media screen and (min-width: 768px) {
     width: 410px;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: var(--brown);
+    color: var(--brown-black);
+  }
+
+  &:active {
+    border-color: var(--brown);
   }
 }
 
@@ -151,10 +155,6 @@ input:valid {
   margin-bottom: 20px;
 }
 
-// .form-label-title {
-//   font-size: 12px;
-// }
-
 .form__btn {
   margin-top: 28px;
   display: block;
@@ -168,7 +168,6 @@ input:valid {
   border: none;
   cursor: pointer;
 
-  // align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white_contact);
