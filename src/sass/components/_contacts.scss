@@ -37,7 +37,7 @@
   color: #7e6d53;
   @media screen and (min-width: 768px) {
     font-size: 24px;
-    line-height: 36px;
+    line-height: 1.5;
   }
 }
 
@@ -48,14 +48,14 @@
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 1.5;
 
   color: #ffffff;
 
   opacity: 0.6;
   @media screen and (min-width: 768px) {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
   }
 }
 .contacts__text {
@@ -65,7 +65,7 @@
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 1.5;
 
   color: #ffffff;
 
@@ -84,7 +84,7 @@
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   color: #2d2a22;
   &:hover,
@@ -92,6 +92,7 @@
     background: #7e6d53;
     border: 1px solid #fcfcfb;
     color: #fcfcfb;
+    cursor: pointer;
   }
 
   @media screen and (min-width: 768px) {
@@ -99,7 +100,7 @@
     height: 54px;
     margin-top: 0;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 1.5;
     color: #7e6d53;
 
     &:hover,
