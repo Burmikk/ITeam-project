@@ -13,21 +13,41 @@
     margin-bottom: 20px;
   }
 }
-.gallery__list {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  justify-content: center;
+
+.swiper-container {
+  position: relative;
+  padding-bottom: 40px;
+
+  //Добавляет стили для стрелок переключения картинок
+  --swiper-navigation-size: 23px;
+  --swiper-theme-color: #000000;
+}
+
+.swiper {
+  max-width: 1024px;
+  width: 100%;
 
   @media screen and (min-width: 768px) {
-    gap: 18px;
+    height: 395px;
   }
 
   @media screen and (min-width: 1280px) {
-    gap: 32px;
+    height: 590px;
+    padding-bottom: 40px;
   }
 }
-.gallery_item {
+
+.swiper-slide img {
+  min-height: 589px;
 }
-.gallery-img {
+
+// Добавляет стили для пагинации
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #c4c4c4;
+  border: 1px solid transparent;
+}
+.swiper-pagination-bullet-active {
+  border: 1px solid var(--brown);
 }
