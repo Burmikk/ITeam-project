@@ -1,7 +1,7 @@
-import Swiper, { Navigation, Pagination, EffectCoverflow } from 'swiper';
+import Swiper, { Navigation, Pagination, EffectCoverflow, Autoplay } from 'swiper';
 
 const swiper = new Swiper('.swiper', {
-  modules: [Navigation, Pagination, EffectCoverflow],
+  modules: [Navigation, Pagination, EffectCoverflow, Autoplay],
   // Default parameters
   slidesPerView: 2,
   spaceBetween: 8,
@@ -18,6 +18,11 @@ const swiper = new Swiper('.swiper', {
     slideShadows: false,
     depth: 400,
   },
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: false,
+    pauseOnMouseEnter:true
+ },
 
   pagination: {
     el: '.swiper-pagination',
