@@ -1,5 +1,4 @@
 .hero {
-  padding-top: 60px;
   @media screen and (min-width: 768px) {
     padding-top: 100px;
   }
@@ -27,7 +26,6 @@
   @media screen and (min-width: 768px) {
     background-position: center;
     background-image: url(../img/hero/img_md@1x.jpg);
-    padding-top: 100px;
 
     // retina tablet screen
     @media (min-device-pixel-ratio: 2),
@@ -51,6 +49,7 @@
 }
 
 .hero__title {
+  padding-top: 32px;
   font-weight: 400;
   font-size: 48px;
   line-height: calc(72 / 48);
