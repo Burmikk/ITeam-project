@@ -1,7 +1,12 @@
 .hero {
+  padding-top: 60px;
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+  }
+}
+.hero-box {
   background-color: #2e2b23;
   text-align: center;
-  padding-top: 60px;
   padding-bottom: 60px;
   background-repeat: no-repeat;
   background-position: center;
